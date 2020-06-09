@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+{% include'index_includes/form.html' %}
+<h2>{{ detail }}</h2>
+{% include 'index_includes/table.html' %}
+</body>
+</html>
